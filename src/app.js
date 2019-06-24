@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () =>{
       saveNewItem: function() {
         this.items.push(this.newItem);
         this.newItem = "";
-      } //comma needs to go here if you add another method
-    }//end of methods
-  });//end of new vue
+      }
+    }
+  });
 });
